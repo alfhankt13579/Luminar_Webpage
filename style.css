@@ -20,14 +20,20 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 16vh;
     /* border: 0.1rem solid black; */
+}
+
+@media (max-width:1400px) and (min-width:992px) {
+    #main0 .image-button-connector {
+        height: 16vh;
+    }
 }
 
 @media (max-width:991px) and (min-width:576px) {
     #main0 .image-button-connector {
         width: 90%;
         column-gap: 5rem;
+        height: 16vh;
     }
 }
 
@@ -35,12 +41,13 @@
     #main0 .image-button-connector {
         width: 90%;
         column-gap: 0.5rem;
+        height: 16vh;
     }
 }
 
 @media (max-width:480px) and (min-width:0px) {
     #main0 .image-button-connector {
-        width: 50%;
+        width: 70%;
         column-gap: 0rem;
     }
 }
@@ -60,7 +67,7 @@
 
 @media (max-width:480px) and (min-width:0px) {
     #main0 .navbar-brand img {
-        min-width: 30rem;
+        min-width: 25rem;
     }
 }
 
@@ -75,7 +82,7 @@
 }
 
 #main0 .navbar-collapse {
-    width: 40%;
+    /* width: 40%; */
     /* border: 0.1rem solid black; */
 }
 
@@ -1316,6 +1323,13 @@
     }
 }
 
+@media (max-width:480px) and (min-width:0px) {
+    #main4 .main4part2 {
+        width: 100%;
+        min-width: 30rem;
+    }
+}
+
 #main4 .main4part2 .main4part2head {
     display: flex;
     align-items: center;
@@ -1566,12 +1580,12 @@
 
 @media (max-width:480px) and (min-width:0px) {
     #main4 .main4part2 .main4part2list .imglist span a {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
 }
 
 #main5new {
-    /* width: 100%; */
+    width: 100%;
     position: relative;
 }
 
@@ -1872,7 +1886,7 @@
     padding-bottom: 0.5rem;
     width: 100%;
     text-decoration: none;
-    border: 0.1rem solid transparent;
+    border: 0.2rem solid white;
     /* border: 0.1rem solid black; */
 }
 
@@ -1938,7 +1952,7 @@
     padding-bottom: 0.5rem;
     width: 100%;
     text-decoration: none;
-    border: 0.1rem solid transparent;
+    border: 0.2rem solid white;
     /* border: 0.1rem solid black; */
 }
 
@@ -2016,7 +2030,7 @@
     padding-bottom: 0.5rem;
     width: 100%;
     text-decoration: none;
-    border: 0.1rem solid transparent;
+    border: 0.2rem solid white;
     /* border: 0.1rem solid black; */
 }
 
